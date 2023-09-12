@@ -40,14 +40,14 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sonu55:sonu55@cluster0.vq
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001967812554"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "https://t.me/+AxtrSJelDN1lMDll")) 
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "https://t.me/+g1Fhpyvc6AJkODI1")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}\n\nI can save private files on Certain Channels and other users can access them from a special link..</b>",
+    "<b>Hello {first}\n\nI can store provide files for @Anime_Alliance channel Members.</b>❤️",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5191566338").split())]
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hey {first}bro\n\nYou must join my Channel/Group First to View the Files I Share\n\nPlease Join the Channel & Group First</b>",
+    "👋 Hello {username}!\nPlease Join our channel First [ ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡️ ] then\n Download by tapping on ⚡️Try Again  \nThank You ❤️",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
