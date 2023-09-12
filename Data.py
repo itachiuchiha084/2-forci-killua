@@ -25,7 +25,7 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/killua_og'>Killua</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/killua_og'>ɢ ᴏ ᴅㅤ ᴏ ꜰㅤ ꜱ ᴘ ᴇ ᴇ ᴅ</a>
 """
 
     close = [
@@ -47,11 +47,9 @@ class Data:
     ]
 
     ABOUT = """
-<b>About this Bot:
-
- This is a Telegram Bot for storing posts or files that can be accessed via a special link.
-
-  • Creator: @Killua_og
+○ <b>Channel</b> : @Anime_Alliance
+○ <b>Request</b> : @newanimerequestbot
+○ <b>Chatting Group</b> : @Alliance_Weebs
 
  👨‍💻 Developed by @Anime_Alliance
 """
